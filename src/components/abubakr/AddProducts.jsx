@@ -2,7 +2,9 @@ import React from 'react'
 import './AddProducts.css'
 
 const AddProducts = () => {
+
   return (
+    <div className="container">
     <div className='add-products-container'>
       <div className="add-product-form">
         <p className='info'>Information</p>
@@ -24,7 +26,7 @@ const AddProducts = () => {
             </div>
         </div>
       </div>
-    </div>
+    </div></div>
   )
 }
 
