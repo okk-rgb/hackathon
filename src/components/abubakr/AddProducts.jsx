@@ -2,6 +2,7 @@ import React from 'react'
 import './AddProducts.css'
 
 const AddProducts = () => {
+
   return (
     <div className='add-products-container'>
       <div className="add-product-form">
