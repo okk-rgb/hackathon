@@ -12,6 +12,7 @@ const Products = () => {
       <p className='product-title'>Add Products</p>
       <p className='procuts__desc'>Start making sales by adding your products. <br /> You can import and manage your products at any time.</p>
       <button onClick={() => navigate='/addProducts'} className='product-btn'>+ Add Product</button>
+      <button  className='product-btn'>+ Add Product</button>
     </div>
   )
 }
