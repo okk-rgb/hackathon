@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.dashboard{
+    background-color: #F5F6FA;
+    height: 100vh;
+}
+.prices{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1110px;
+    
+}
+.right{
+   
+    padding: 28px;
+    margin-right: 20px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    border-right: 3px solid #E6E9F4;
+}
+.percet{
+    display: flex;
+    align-items: center;
+    color: #06A561;
+
+}
+.percet-icon{
+    margin-left: 30px;
+}
+.price b{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.price p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A607F;
+    margin-bottom: 18px;
+}
+.percet2{
+        display: flex;
+    align-items: center;
+    color: red;
+}
+.left{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ECF2FF;
+}
+.icon{
+    margin-top: 18px;
+    color: #1E5EFF;
+}
+.datess{
+    width: 825px;
+    height: 469px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+}
+.dates_header{
+    display: flex;
+    padding: 28px;
+    align-items: center;
+    gap: 511px;
+}
+.dates_header h2{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.dates_header p{
+    font-size: 14px;
+}
+.days{
+    display: flex;
+    justify-content: center;
+    gap: 335px;
+}
+.day{
+    display: flex;
+    gap: 40px;
+    
+}
+.dayss{
+    width: 119px;
+    
+}
+.date{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 5px;
+}
+.dates{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.date h6{
+    width: 12px;
+    height: 12px;
+    background-color: #D9E1EC;
+    color: #D9E1EC;
+}
+.date h3{
+        width: 12px;
+    height: 12px;
+    background-color:#1E5EFF ;
+    color: #1E5EFF;
+}
+.orders{
+    margin-top: -350px;
+}
