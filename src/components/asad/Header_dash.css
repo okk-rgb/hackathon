@@ -1,0 +1,49 @@
+.header__wrapper {
+  display: flex;
+  gap: 113px;
+  align-items: center;
+}
+
+.header__icon{
+  font-size: 24px;
+}
+
+.search__bar {
+  display: flex;
+  gap: 7px;
+}
+
+.search__bar input {
+  border: none;
+  outline: none;
+}
+
+.sidebar__wrapper {
+  width: 250px;
+  height: 1197px;
+  border: none;
+  background-color: #F5F6FA;
+}
+
+.sidebar__wrapper ul{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar__wrapper button {
+  padding: 12px 16px;
+  border: none ;
+  background-color: transparent;
+  
+}
+
+
+.sidebar__wrapper a {
+  color: #5A607F;
+}
+
+.sidebar__wrapper button :focus {
+  background-color: #1E5EFF;
+  color: white;
+}
