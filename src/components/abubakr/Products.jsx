@@ -11,7 +11,7 @@ const Products = () => {
       <img className='product-img' src={productImg} alt="img" />
       <p className='product-title'>Add Products</p>
       <p className='procuts__desc'>Start making sales by adding your products. <br /> You can import and manage your products at any time.</p>
-      <button onClick={() => navigate='/addproducts'} className='product-btn'>+ Add Product</button>
+      <button onClick={() => navigate='/addProducts'} className='product-btn'>+ Add Product</button>
     </div>
   )
 }
