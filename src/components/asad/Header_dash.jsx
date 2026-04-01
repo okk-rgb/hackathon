@@ -26,14 +26,14 @@ const Header_dash = () => {
           <div className="container">
           <ul>
             <li>
-              <button><Link><span><CiHome /></span> Dashboard</Link></button>
+              <Link to={'/'}><span><CiHome /></span> Dashboard</Link>
             </li>
             <li>
-              <button><Link><span><IoPricetagOutline /></span> Products</Link></button>
+              <Link to={'/products'}><span><IoPricetagOutline /></span> Products</Link>
               
             </li>
             <li>
-              <button><Link><span><CiFolderOn /></span>Categories</Link></button>
+              <Link to={'/categories'}><span><CiFolderOn /></span>Categories</Link>
               
             </li>
           </ul>
